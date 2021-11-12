@@ -10,7 +10,7 @@ export default function MyAccount() {
       <Container className="myaccount mt-5">
         <Row>
           <Col className="pb-2">
-            <h3>My Account</h3>
+            <h3>My Account-Gauri Bhardwaj Gauri Bhardwaj</h3>
           </Col>
         </Row>
         <Row className="flexcontainer">
