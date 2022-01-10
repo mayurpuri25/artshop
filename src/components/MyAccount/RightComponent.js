@@ -24,7 +24,7 @@ export default function RightComponent() {
         <Row className="px-3">
           <Form onSubmit={handleDefault}>
             <Row className="mb-3" id="formgroup">
-              <Form.Group as={Col}>
+              <Form.Group className="mb-3" as={Col}>
                 <Form.Label>Full Name <span id="required">*</span></Form.Label>
                 <Form.Control type="name" placeholder="Enter Name" required/>
               </Form.Group>
@@ -35,7 +35,7 @@ export default function RightComponent() {
             </Row>
 
             <Row className="mb-3" id="formgroup">
-              <Form.Group as={Col} controlId="formGridEmail">
+              <Form.Group className="mb-3" as={Col} controlId="formGridEmail">
                 <Form.Label>Email <span id="required">*</span></Form.Label>
                 <Form.Control type="email" placeholder="Enter Email" required/>
               </Form.Group>
@@ -57,12 +57,12 @@ export default function RightComponent() {
               </Form.Group>
             </Row>
             <Row className="mb-3" id="formgroup">
-              <Form.Group as={Col} controlId="formGridCity">
+              <Form.Group className="mb-3" as={Col} controlId="formGridCity">
                 <Form.Label>City</Form.Label>
                 <Form.Control />
               </Form.Group>
 
-              <Form.Group as={Col} controlId="formGridState">
+              <Form.Group className="mb-3" as={Col} controlId="formGridState">
                 <Form.Label>State</Form.Label>
                 <Form.Control />
               </Form.Group>
