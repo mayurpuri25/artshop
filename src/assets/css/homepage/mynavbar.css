@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@350&display=swap");
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+#row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#col1,
+#col2,
+#col3 {
+  max-width: fit-content;
+}
+
+.col {
+  text-align: center;
+}
+
+#sell {
+  display: inline-flex;
+}
