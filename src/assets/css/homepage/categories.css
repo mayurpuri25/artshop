@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+h4{
+  margin-bottom: 1rem;
+}
+
+.category{
+  width: 100%;
+  margin: auto;
+}
+
+.card{
+  width:100%;
+  margin: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.explore{
+  text-align: right;
+  font-size: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 4rem;
+}
+
+.img{
+  width: 113%;
+}
+
+.outer{
+  flex-shrink: 1;
+  display: inline-block;
+  width: 14rem !important;
+}
+
+@media only screen and (max-width: 48rem) {
+
+  .img{
+    width: 100%;
+  }
+}

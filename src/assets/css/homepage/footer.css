@@ -1,0 +1,57 @@
+*{ 
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+#footer{
+  background-color: rgb(248, 247, 241);
+  margin-top: 2rem;
+}
+
+#upper{
+  padding-bottom: 1rem;
+}
+
+.subscribe, #col-2, .about{
+  margin-top: 2rem !important;
+}
+
+.subscribe h5{
+  text-align: justify;
+}
+
+.subscribe p, .about p{
+  font-size: 13px;
+  text-align: justify;
+}
+
+.input{
+  width: 20%;
+}
+
+#col-2 li{
+ list-style: none;
+ font-size: 15px;
+ text-align: left;
+}
+
+#col-2 li a{
+  text-decoration: none;
+  color: #000;
+}
+
+#col-2{
+  margin: 0rem 4rem;
+}
+
+#copyright{
+  width: 100.8%;
+  background-color: rgb(238, 234, 212);
+  text-align: center;
+}
+
+#copyright h5{
+  font-size: 13px;
+  padding-top: 10px;
+}
