@@ -26,3 +26,7 @@ body {
 #sell {
   display: inline-flex;
 }
+
+.logo{
+  text-decoration: none;
+}

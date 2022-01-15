@@ -37,7 +37,7 @@ export default function MyNavbar() {
               </Navbar.Collapse>
             </Col>
             <Col id="col2" className="col" md="auto">
-              <Link to="/"><Navbar.Brand>ArtLove</Navbar.Brand></Link>
+              <Link to="/"><Navbar.Brand className="logo">ArtLove</Navbar.Brand></Link>
             </Col>
             <Col id="col3" className="col" md="auto">
               <i className="icons" className="bx bx-search bx-xs p-2"></i>

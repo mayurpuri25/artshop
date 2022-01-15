@@ -13,15 +13,21 @@ h4{
   margin: auto;
 }
 
-.card{
-  width:100%;
-  margin: 0%;
+.scroll{
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  flex-wrap: nowrap;
   align-items: center;
-  margin-bottom: 2rem;
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+  margin:0%;
+  cursor: default;
+  overflow: scroll hidden;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0px 1.25rem;
+  scrollbar-width: none;
 }
 
 .explore{
@@ -30,16 +36,19 @@ h4{
   text-decoration: none;
   cursor: pointer;
   margin-bottom: 4rem;
+  margin-top: 1rem;
 }
 
-.img{
-  width: 113%;
+.card-img{
+  align-self: flex-start;
+  height: 100%;
+  width: 100%;
 }
 
 .outer{
-  flex-shrink: 1;
-  display: inline-block;
   width: 14rem !important;
+  height: 19rem !important;
+  padding: 0%;
 }
 
 @media only screen and (max-width: 48rem) {
@@ -48,3 +57,60 @@ h4{
     width: 100%;
   }
 }
+
+/* .main{
+.scroll {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 1rem 0;
+  margin: 2.5rem 0;
+  cursor: default;
+  overflow: scroll hidden;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0px 1.25rem;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &.active {
+    cursor: grab;
+    cursor: -webkit-grab;
+  }
+
+  .card {
+    width: 16rem;
+    height: auto;
+    flex: 0 0 auto;
+    margin: 0 0.75rem;
+    border: none;
+    outline: none;
+    border-radius: 0.25rem;
+    color: $color-black;
+    background: $color-white;
+    box-shadow: $box-shadow;
+
+    &-image {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      padding-top: 110%;
+
+      img.responsive {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  } */
