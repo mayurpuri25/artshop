@@ -1,34 +1,16 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'boxicons'
-import MyAccount from './pages/MyAccount';
-import MainPage from './pages/Homepage/MainPage'
-import MyNavbar from './pages/Homepage/MyNavbar'
-// import Auth from './pages/Auth/Auth';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "boxicons";
+
+import Auth from "./pages/Auth/Auth";
+import Admin from "./pages/Admin/Admin";
+import { useSelector } from "react-redux";
 
 function App() {
+  const user = useSelector((state) => state.user.user);
   return (
     <>
-      <Router>
-
-      
-      <MyNavbar />
-      {/* <MyAccount className="myaccount"/> */}
-      <Switch>
-        <Route exact path='/myaccount'>
-          <MyAccount />
-        </Route>
-        <Route exact path='/'>
-          <MainPage />
-        </Route>
-
-      </Switch>
-      </Router>
+      {user ? <Admin /> : <Auth />}
     </>
   );
 }

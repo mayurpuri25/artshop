@@ -1,13 +1,13 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import "../../assets/css/homepage/mainpage.css";
+import "../assets/css/homepage/homepage.css";
 // import MyNavbar from "./MyNavbar";
-import img1 from "../../assets/images/bgimg1.jpg";
-import Categories from "../../components/Categories"
-import JoinUs from "../../components/JoinUs"
-import ArtNetwork from "../../components/ArtNetwork";
-import NewArtworks from "../../components/NewArtworks";
-import Footer from "../../components/Footer";
+import img1 from "../assets/images/bgimg1.jpg";
+import Categories from "../components/HomePage/Categories"
+import JoinUs from "../components/HomePage/JoinUs"
+import ArtNetwork from "../components/HomePage/ArtNetwork";
+import NewArtworks from "../components/HomePage/NewArtworks";
+import Footer from "../components/Footer";
 
 export default function Homepage() {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import "../assets/css/homepage/artnetwork.css";
+import "../../assets/css/homepage/artnetwork.css";
 import { Card, ListGroup, ListGroupItem, Image } from "react-bootstrap";
-import artist from "../assets/images/new.jpg";
+import artist from "../../assets/images/new.jpg";
 
 export default function ArtNetwork() {
   return (

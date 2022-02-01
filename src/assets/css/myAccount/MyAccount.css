@@ -22,6 +22,7 @@
 #nav {
   padding-left: 10px;
   font-size: x-large;
+  cursor:default;
 }
 
 .list-group-item:hover {

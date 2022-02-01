@@ -1,7 +1,7 @@
 import React from 'react'
-import "../assets/css/homepage/joinus.css";
+import "../../assets/css/homepage/joinus.css";
 import {Container,Row,Col, Image} from "react-bootstrap";
-import artist from "../assets/images/artist.jpg";
+import artist from "../../assets/images/artist.jpg";
 
 export default function joinus() {
   return (

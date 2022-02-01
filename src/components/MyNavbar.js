@@ -1,8 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav, NavDropdown, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import '../../assets/css/homepage/mynavbar.css';
-
+import "../assets/css/homepage/mynavbar.css";
 
 export default function MyNavbar() {
   return (
@@ -26,7 +25,7 @@ export default function MyNavbar() {
                       Expressionism
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.4">
-                    Pop Art
+                      Pop Art
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.5">
                       Conceptual
@@ -37,14 +36,20 @@ export default function MyNavbar() {
               </Navbar.Collapse>
             </Col>
             <Col id="col2" className="col" md="auto">
-              <Link to="/"><Navbar.Brand className="logo">ArtLove</Navbar.Brand></Link>
+              <Link to="/">
+                <Navbar.Brand className="logo">ArtLove</Navbar.Brand>
+              </Link>
             </Col>
             <Col id="col3" className="col" md="auto">
-              <i className="icons" className="bx bx-search bx-xs p-2"></i>
-              <Link to='/myaccount'><i className="icons bx bx-user bx-xs p-2"></i></Link>
-              <i className="icons" className="bx bx-cart bx-xs p-2"></i>
+              <i className="icons bx bx-search bx-xs p-2"></i>
+              <Link to="/myaccount/profile">
+                <i className="icons bx bx-user bx-xs p-2"></i>
+              </Link>
+              <i className="icons bx bx-cart bx-xs p-2"></i>
               <Nav id="sell">
-              <Nav.Link href="#link" pb-2>Sell</Nav.Link>
+                <Nav.Link href="#link" className="pb-2">
+                  Sell
+                </Nav.Link>
               </Nav>
             </Col>
           </Row>

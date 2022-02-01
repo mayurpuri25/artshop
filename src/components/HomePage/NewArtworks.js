@@ -1,6 +1,6 @@
 import React from "react";
-import "../assets/css/homepage/newartwork.css";
-import { Card, Image, Row, Container } from "react-bootstrap";
+import "../../assets/css/homepage/newartwork.css";
+import { Card, Image, Row } from "react-bootstrap";
 
 export default function ArtNetwork() {
   return (
